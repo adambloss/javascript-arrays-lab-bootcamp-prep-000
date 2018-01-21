@@ -1,4 +1,4 @@
-)const app = "I don't do much."
+const app = "I don't do much."
 kittens = ["Milo", "Otis", "Garlfield"]
 function destructivelyAppendKitten(name) {
   kittens.push(name)
@@ -24,3 +24,4 @@ function removeLastKitten() {
 function removeFirstKitten() {
   return kittens.slice(1)
 }
+
